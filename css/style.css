@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* fonts */
+@font-face {
+  font-family: 'rupster_script_free';
+  src: url('../fonts/4rLujf0T-webfont.eot');
+  src: url('../fonts/4rLujf0T-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/4rLujf0T-webfont.woff2') format('woff2'), url('../fonts/4rLujf0T-webfont.woff') format('woff'), url('../fonts/4rLujf0T-webfont.ttf') format('truetype'), url('../fonts/4rLujf0T-webfont.svg#rupster_script_freeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  padding: 0;
+  background: url(../img/wrapp-bg.png) repeat;
+}
+h1 {
+  font: 40px rupster_script_free,Arial;
+  color: #FF00FF;
+  width: 300px;
+  margin: 0 auto;
+}
+.canvas-wrapp {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  background: #fff;
+}
+#wrapper .aktual-color {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  color: #778899;
+}
+#wrapper .aktual-color span {
+  padding: 5px;
+  margin: 0;
+}
+#wrapper .aktual-line-width {
+  position: absolute;
+  top: 155px;
+  left: 43px;
+}
+#wrapper .aktual-line-width span {
+  padding: 5px;
+  border-radius: 50%;
+}
+#wrapper {
+  text-align: center;
+  margin: 0;
+}
+#wrapper span,
+#wrapper strong,
+#wrapper a {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+  font: 18px rupster_script_free,Arial;
+  padding: 20px;
+  border-radius: 3px;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+#wrapper span:active,
+#wrapper strong:active,
+#wrapper a:active {
+  box-shadow: 0 2px 3px #000;
+}
+#red {
+  background: #FF0000;
+}
+#black {
+  background: #000;
+  color: #fff;
+}
+#green {
+  background: #00FF00;
+}
+#grey {
+  background: #c1cdcd;
+}
+#clear {
+  background: #fff;
+  border: 2px solid #000;
+}
